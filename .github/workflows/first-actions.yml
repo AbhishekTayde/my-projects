@@ -24,6 +24,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest addition.py substraction.py
+        python -m pytest addition.py 
+        python -m pytest substraction.py
         
 
